@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-
+import { RiMailSendLine, RiWhatsappLine } from 'react-icons/ri';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
@@ -9,11 +9,11 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>WhatsApp</LinkTitle>
+          <LinkTitle><RiWhatsappLine size="1.2rem"/> WhatsApp</LinkTitle>
           <LinkItem href="https://api.whatsapp.com/send?phone=5579999148911&text=Ol%C3%A1!">+55 79 99914-8911</LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
+        <LinkTitle><RiMailSendLine size="1.2rem"/> Email</LinkTitle>
           <LinkItem href="mailto:rafapsd@gmail.com">
             rafapsd@gmail.com
           </LinkItem>
