@@ -1,0 +1,44 @@
+/* Buttons styles start here */
+
+.button-hero {
+    background: linear-gradient(-45deg, #000046, #1CB5E0);
+  }
+
+.btn {
+    /* font-family: 'Poppins'; */
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 6px;
+    background-size: 400% 400%;
+    color: #FFF;
+    text-transform: uppercase;
+    border: 0;
+    padding: 13px 30px;
+    font-size: 15px;
+    animation: Gradient 10s ease infinite;
+    
+    /* &:hover {
+      background-size: 150% 150%;
+    } */
+}
+    .button-outline {
+        animation: Gradient 10s ease infinite;
+        position: relative;
+        
+        
+      
+      @keyframes Gradient {
+          0% {
+              background-position: 0% 50%
+          }
+          50% {
+              background-position: 100% 50%
+          }
+          100% {
+              background-position: 0% 50%
+          }
+}
+      
+}
