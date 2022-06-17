@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from "emailjs-com";
-import styled from 'styled-components'
+import styled from 'styled-components';
+
 
 export const ContactUs = () => {
     const form = useRef();
@@ -10,10 +11,11 @@ export const ContactUs = () => {
 
     emailjs.sendForm('service_6dow9i1', 'template_portfolio', form.current, 'p8FlWkQlnwrvFA42o')
     .then((result) => {
-        console.log(result.text);
+        alert('Your message has been sent successfully.');
     }, (error) => {
-        console.log(error.text);
+        alert(error.message);
     });
+    form.current.reset();
 };
 
 return (
@@ -21,11 +23,10 @@ return (
     <Label>Name</Label>    
     <Input type="text" name="user_name" />    
     <Label>Email</Label>    
-    <Input type="email" name="user_email" />    
+    <Input type="email" name="user_email" required placeholder="example@example.com" />     
     <Label>Message</Label>
-    <Textarea name="message" />
-    <br />    
-    <Input type="submit" value="Send" />
+    <Textarea name="message" />        
+    <Input type="submit"  value="Send"/>
   </Form>
 );
 };
@@ -57,14 +58,24 @@ export const Textarea = styled.textarea`
     border-radius: .75rem;
     margin-bottom: 1rem;
     border: 0px; 
-    
+    ::placeholder,
+    ::-webkit-input-placeholder {
+      font-size: 1.4rem;
+    color: lightgray;
+    opacity: calc(20%);
+  }
+    :-ms-input-placeholder {
+     color: red;
+     color: lightgray;
+    opacity: calc(20%);
+  }
     @media ${props => props.theme.breakpoints.lg} {
         width: 66rem;
   }
-  @media ${props => props.theme.breakpoints.md} {
+    @media ${props => props.theme.breakpoints.md} {
     width: 36rem;
   }
-`
+  `
 export const Form = styled.form`
     justify-content: center;
     align-items: center;
@@ -73,14 +84,27 @@ export const Form = styled.form`
     margin-top: -50px;
  `
  export const Input = styled.input`
+ 
+    height: 3rem;
+    width: 25rem; 
     position: absolute;    
     align-content: center;
-    padding: 7px 7px 7px 7px;
-    height: 3rem;        
+    padding: 7px 7px 7px 7px;            
     color: #fff;
     background: #212d45;
     border-radius: .75rem;
     margin-bottom: 1rem;
-    border: 0px;    
+    border: 0px; 
+    ::placeholder,
+    ::-webkit-input-placeholder {
+      font-size: 1.4rem;
+    color: lightgray;
+    opacity: calc(20%);
+  }
+    :-ms-input-placeholder {
+     color: red;
+     color: lightgray;
+    opacity: calc(20%);
+  }   
     
  `
