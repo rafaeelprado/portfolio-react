@@ -60,14 +60,14 @@ export const Textarea = styled.textarea`
     border: 0px; 
     ::placeholder,
     ::-webkit-input-placeholder {
-      font-size: 1.4rem;
+    font-size: 1.4rem;
     color: lightgray;
     opacity: calc(20%);
   }
     :-ms-input-placeholder {
      color: red;
      color: lightgray;
-    opacity: calc(20%);
+     opacity: calc(20%);
   }
     @media ${props => props.theme.breakpoints.lg} {
         width: 66rem;
@@ -83,7 +83,8 @@ export const Form = styled.form`
     margin-bottom: 4rem;    
     margin-top: -50px;
  `
- export const Input = styled.input`    
+ export const Input = styled.input`
+    display: block ;
     height: 3rem;
     width: 25rem; 
     position: absolute;    
