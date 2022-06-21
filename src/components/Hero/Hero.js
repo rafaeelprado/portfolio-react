@@ -17,7 +17,7 @@ const Hero = (props) => (
           Rafael Prado          
         </SectionTitle>
         <SectionSubText2 className="typing-demo">
-          Front-end Developer
+          Front-end Developer Jr
         </SectionSubText2>
         <SectionText>
         My current stack includes: JavaScript, React.js, Next.js, Git, HTML5, CSS3, TailwindCSS. I have a good experience with graphic softwares like Figma, Illustrator and Photoshop.

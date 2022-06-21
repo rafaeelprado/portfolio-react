@@ -7,7 +7,7 @@ import { ContactUs } from './ContactStyles';
 
 const Contact = () =>  (
     <Section id="contact">     
-      <SectionTitle>Contact</SectionTitle>
+      <SectionTitle>Get In Touch</SectionTitle>
       <SectionText>
       I'm waiting for your message, you can send me an email, call me, or send me a message right here.
       </SectionText>
