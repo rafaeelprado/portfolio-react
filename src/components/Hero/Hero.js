@@ -1,7 +1,9 @@
 import React from 'react';
 
-import { Section, SectionSubText, SectionSubText2, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { ButtonDiv, Section, SectionSubText, SectionSubText2, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
+import Button2 from '../../styles/GlobalComponents/Button2';
+import { GoLinkExternal } from 'react-icons/go';
 import { LeftSection } from './HeroStyles';
 import Link from 'next/link';
 
@@ -20,9 +22,14 @@ const Hero = (props) => (
         <SectionText>
         My current stack includes: JavaScript, React.js, Next.js, Git, HTML5, CSS3, TailwindCSS. I have a good experience with graphic softwares like Figma, Illustrator and Photoshop.
         </SectionText>
-        <Link href="#contact">
-        <Button>Contact Me</Button>
+        <ButtonDiv>
+        <Link href="#contact">        
+        <Button>Contact Me</Button>     
+        </Link> 
+        <Link href="https://drive.google.com/file/d/1LE8HYWvo007rKD3z2DQivKXHzNeJ56lD/view?usp=sharing" target="_blank">            
+        <Button2>Download CV&nbsp;<GoLinkExternal/> </Button2>
         </Link>
+        </ButtonDiv>
       </LeftSection>
     </Section>
   </>

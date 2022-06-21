@@ -83,8 +83,7 @@ export const Form = styled.form`
     margin-bottom: 4rem;    
     margin-top: -50px;
  `
- export const Input = styled.input`
- 
+ export const Input = styled.input`    
     height: 3rem;
     width: 25rem; 
     position: absolute;    
@@ -95,12 +94,14 @@ export const Form = styled.form`
     border-radius: .75rem;
     margin-bottom: 1rem;
     border: 0px; 
+    cursor: pointer;
     ::placeholder,
     ::-webkit-input-placeholder {
       font-size: 1.4rem;
     color: lightgray;
-    opacity: calc(20%);
+    opacity: calc(20%);    
   }
+
     :-ms-input-placeholder {
      color: red;
      color: lightgray;

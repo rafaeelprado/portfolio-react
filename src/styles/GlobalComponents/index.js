@@ -206,10 +206,16 @@ export const SecondaryBtn = styled.button`
     line-height: 16px;
   }
 `
+export const ButtonDiv = styled.button`
+display: flex;
+column-gap: 10px;
+background-color: inherit;
+border: none;
+`
 
 export const ButtonBack = styled.div`
   width: ${({ alt }) => alt ? '150px' : '262px'};
-  height: ${({ alt }) => alt ? '52px' : '64px'};
+  height: ${({ alt }) => alt ? '52px' : '64px'};  
   border-radius: 30px;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
   font-weight: 600;
