@@ -46,7 +46,7 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>UI</ListTitle>
           <ListParagraph>
             Experience with <br />            
             <Button>Figma</Button>

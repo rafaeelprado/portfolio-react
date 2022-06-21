@@ -21,7 +21,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>© 2022 rafaprado.com</Slogan>
+          <Slogan>© 2022 Rafael Prado</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/rafaeelprado">
