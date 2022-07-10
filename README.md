@@ -1,7 +1,13 @@
 # [Rafael Prado](https://rafapradoportfolio.vercel.app)'s Portfolio v2
 ![portfolio-react-preview](https://user-images.githubusercontent.com/29392805/178162119-c6f497e4-9533-47ef-b6ba-42f117f05ce3.gif)
 
-## :scroll: Sobre
+<p align="center">
+  <a href="https://forthebadge.com"> <img src="https://forthebadge.com/images/badges/uses-html.svg" /> </a>
+  <a href="https://forthebadge.com"> <img src="https://forthebadge.com/images/badges/uses-css.svg" /> </a>
+  <a href="https://forthebadge.com"> <img src="https://forthebadge.com/images/badges/uses-js.svg" /> </a>
+</p>
+
+## :scroll: About
    
    This is version 2.0 of my personal website, which contains a portfolio hosted on Vercel and deployed on Vercel.<br>
    
@@ -15,7 +21,7 @@
    
 ---
    
-## :rocket: Tecnologias utilizadas
+## :rocket: Technologies used
 
 - React.js
 - Next.js
@@ -24,7 +30,7 @@
 
 ---
 
-## 🔖 Recursos utilizados
+## 🔖 Resources used
 
   <a href="https://fonts.google.com/">Google fonts<a/>
 
