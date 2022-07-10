@@ -2,7 +2,7 @@
 ![portfolio-react-preview](https://user-images.githubusercontent.com/29392805/178162119-c6f497e4-9533-47ef-b6ba-42f117f05ce3.gif)
 
 <p align="center">
-  <a href="https://forthebadge.com"> <img src="https://forthebadge.com/images/badges/uses-html.svg" /> </a>
+  <a href="https://forthebadge.com"> <img src="https://user-images.githubusercontent.com/29392805/178163778-48b3d9c9-f828-4f0b-9e6f-ddbdee2bf872.svg" /> </a>  
   <a href="https://forthebadge.com"> <img src="https://forthebadge.com/images/badges/uses-css.svg" /> </a>
   <a href="https://forthebadge.com"> <img src="https://forthebadge.com/images/badges/uses-js.svg" /> </a>
 </p>
